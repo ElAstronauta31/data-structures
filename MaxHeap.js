@@ -6,7 +6,7 @@ class MaxHeap {
     }
 
     getMax () {
-        /* Accessing the min element at index 1 in the heap array */
+        /* Accessing the max element at index 1 in the heap array */
         return this.heap[1]
     }
     
@@ -31,7 +31,7 @@ class MaxHeap {
     }
     
     remove() {
-        /* Smallest element is at the index 1 in the heap array */
+        /* Largest element is at the index 1 in the heap array */
         let largest = this.heap[1]
 
         /* When there are more than two elements in the array, we put the right most element at the first position
